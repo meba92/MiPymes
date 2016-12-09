@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_clientes"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="gestorventas.is2.com.gestorventasapp.ClientesActivity">
+
+    <Button
+        android:text="@string/Texto_bt_pedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btLevantarPedido"
+        style="@android:style/Widget.Button"
+        android:layout_marginBottom="103dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="@string/TextoTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTelefono"
+        android:textSize="18sp"
+        android:layout_below="@+id/textDireccion"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="68dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Direccion"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/textDireccion"
+        android:layout_alignBottom="@+id/textDireccion"
+        android:layout_alignStart="@+id/btLevantarPedido"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Telefono"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/textTelefono"
+        android:layout_alignBottom="@+id/textTelefono"
+        android:layout_alignStart="@+id/Direccion"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="@string/textCliente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textCliente"
+        android:textSize="18sp"
+        android:layout_marginTop="46dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Spinner
+        android:id="@+id/spinnerClientes"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/textCliente"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/Direccion"
+        android:layout_alignTop="@+id/textCliente"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="@string/TextoDireccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textDireccion"
+        android:textSize="18sp"
+        android:layout_marginTop="67dp"
+        android:layout_below="@+id/textCliente"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

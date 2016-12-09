@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_levantar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="gestorventas.is2.com.gestorventasapp.LevantarActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/precio_unitario"
+        android:layout_above="@+id/tx_cantidad"
+        android:layout_alignTop="@+id/tx_precio_unitario"
+        android:textSize="18sp"
+        android:layout_alignStart="@+id/importe" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tx_importe"
+        android:layout_toEndOf="@+id/button_registrar"
+        android:id="@+id/importe"
+        android:layout_alignBottom="@+id/tx_importe"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinnerCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tx_cantidad"
+        android:layout_alignParentEnd="true"
+        android:entries="@array/stringCantidad"
+        android:layout_toEndOf="@+id/button_ver_pedido"
+        android:textAlignment="center"
+        android:layout_alignStart="@+id/spinnerProductos"></Spinner>
+
+    <Button
+        android:text="@string/Texto_bt_ver_pedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_ver_pedido"
+        style="@android:style/Widget.Button"
+        android:layout_below="@+id/button_registrar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:text="@string/Texto_bt_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:id="@+id/button_registrar"
+        style="@android:style/Widget.Button"
+        android:layout_below="@+id/importe"
+        android:layout_alignStart="@+id/button_ver_pedido" />
+
+    <Spinner
+        android:id="@+id/spinnerProductos"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/tx_producto"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/tx_producto"
+        android:layout_alignStart="@+id/button_registrar"
+        android:textAlignment="center" />
+
+    <TextView
+        android:text="@string/TextoPrecio"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:id="@+id/tx_precio_unitario"
+        android:layout_below="@+id/tx_producto"
+        android:layout_alignStart="@+id/tx_producto" />
+
+    <TextView
+        android:text="@string/TextoImporte"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:id="@+id/tx_importe"
+        android:layout_below="@+id/spinnerCantidad"
+        android:layout_alignStart="@+id/tx_cantidad" />
+
+    <TextView
+        android:textSize="18sp"
+        android:text="@string/TextoCantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:id="@+id/tx_cantidad"
+        android:layout_below="@+id/tx_precio_unitario"
+        android:layout_alignStart="@+id/tx_precio_unitario" />
+
+    <TextView
+        android:text="@string/TextoProducto"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx_producto"
+        android:layout_marginTop="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

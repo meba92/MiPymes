@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">GestorVentasApp</string>
+
+    <!--Nombres de los Activity-->
+    <string name="login_name">Gestor Ventas</string>
+    <string name="clientes_name">Cliente</string>
+    <string name="levantar_name">Levantar Pedido</string>
+    <string name="registro_name">Registro Pedidos</string>
+
+    <!--Vista de Login-->
+    <string name="texto_usuario">Usuario</string>
+    <string name="texto_contraseña">Contraseña</string>
+    <string name="texto_aceptar">Aceptar</string>
+    <string name="title_activity_cliente">ClienteActivity</string>
+
+    <!--Vista de Clientes-->
+    <string name="TextoDireccion">Dirección:</string>
+    <string name="ejDireccion">Ruta Mcal Estigarribia c/ Ingavi</string>
+    <string name="TextoTelefono">Teléfono:</string>
+    <string name="ejTelefono">0985 524 119</string>
+    <string name="Texto_bt_pedido">Levantar Pedido</string>
+    <string name="textCliente">Cliente:</string>
+
+    <!--Vista de Levantar-->
+    <string name="TextoCantidad">Cantidad:</string>
+    <string name="TextoPrecio">Precio:</string>
+    <string name="TextoProducto">Producto</string>
+    <string name="TextoImporte">Importe:</string>
+    <string name="Texto_bt_registrar">Registrar</string>
+    <string name="Texto_bt_ver_pedido">Ver Pedido</string>
+
+    <!--Vista de Registros-->
+    <string name="TextoFinalizarPedido">Finalizar Pedido</string>
+
+    <!--Valores que desplegará el Spinner Cantidad en la vista Levantar-->
+    <string-array name="stringCantidad">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+
+</resources>
