@@ -8,7 +8,7 @@ import BaseDatos.DataBaseManager.PedidoEntry;
  *
  *
  *
- * Created by PedroCM on 11/10/2016.
+ * Created by Emilia on 20/10/2016.
  */
 
 //Entidad Pedido

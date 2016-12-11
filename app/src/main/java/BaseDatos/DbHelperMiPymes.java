@@ -83,14 +83,14 @@ public class DbHelperMiPymes extends SQLiteOpenHelper {
     //CREACION DE DATOS FICTICIOS
     private void mockDataUsuario(SQLiteDatabase db) {
         mockUsuario(db, new Usuario("admin","admin"));
-        mockUsuario(db, new Usuario("diegoviedo","diegoviedo"));
-        mockUsuario(db, new Usuario("yanisosa","yanisosa"));
+        mockUsuario(db, new Usuario("rcaniza","123"));
+        mockUsuario(db, new Usuario("lbarrios","123"));
     }
 
     private void mockDataVendedor(SQLiteDatabase db) {
-        mockVendedor(db, new Vendedor("1","Pedro","Campuzano","admin","4512197","0971690167"));
-        mockVendedor(db, new Vendedor("2","Diego","Oviedo","diegoviedo","1234567","0962148182"));
-        mockVendedor(db, new Vendedor("3","Yanina","Sosa","yanisosa","6543210","0982701339"));
+        mockVendedor(db, new Vendedor("1","Emilia","Baez","admin","4512197","0983378529"));
+        mockVendedor(db, new Vendedor("2","Romina","Caniza","rcaniza","1234567","0971781801"));
+        mockVendedor(db, new Vendedor("3","Liz","Barrios","lbarrios","6543210","0981256214"));
     }
 
     private void mockDataCliente(SQLiteDatabase db) {

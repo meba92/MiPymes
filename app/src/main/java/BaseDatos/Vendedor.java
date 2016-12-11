@@ -6,7 +6,7 @@ import android.content.ContentValues;
 import BaseDatos.DataBaseManager.VendedorEntry;
 
 /**
- * Created by PedroCM on 10/10/2016.
+ * Created by Emilia on 20/10/2016.
  */
  
 //Entidad Vendedor

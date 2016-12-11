@@ -4,7 +4,7 @@ import android.provider.BaseColumns;
 
 /**
  *
- * Created by Emilia.
+ * Created by Emilia on 20/10/2016..
  */
 
 /*Se implementó la interfaz BaseColumns con el fin de agregar una columna extra que se recomienda tenga toda tabla*/
