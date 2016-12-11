@@ -5,7 +5,7 @@ import android.content.ContentValues;
 import BaseDatos.DataBaseManager.ClienteEntry;
 
 /**
- * Created by Emilia on 20/10/2016..
+ * Created by Emilia on 20/10/2016.
  *
  */
 

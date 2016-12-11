@@ -18,7 +18,7 @@ import static BaseDatos.DataBaseManager.T_VENDEDOR;
 
 /**
  *
- *Created by Emilia.
+ *Created by Emilia on 20/10/2016.
  */
 
 public class DbHelperMiPymes extends SQLiteOpenHelper {
